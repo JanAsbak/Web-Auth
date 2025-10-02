@@ -15,12 +15,12 @@ This is a simple web application that allows users to **register** and **login**
 1. **Clone the repository**
 
 ```bash
-git clone <repository-url>
-cd project-folder
+git clone https://github.com/JanAsbak/Web-Auth.git
+cd Web-Auth
 ```
 2. **Install backend dependencies**
 ```bash
-cd backend
+cd server
 npm install
 ```
 
