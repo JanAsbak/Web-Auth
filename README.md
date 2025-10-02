@@ -3,22 +3,6 @@ This is a simple web application that allows users to **register** and **login**
 
 ---
 
-## Project Structure
-Web-Auth/
-│
-├─ server/
-│   ├─ package.json
-│   ├─ database.sql
-│   ├─ src/server.js
-│   └─ src/db.js
-│
-├─ client/
-│   ├─ index.html
-│   ├─ style.css
-│   └─ app.js
-
----
-
 ## Requirements
 
 - Node.js and npm installed
@@ -68,6 +52,8 @@ node server.js
 - Register or Login:
 
 - Fill in a username and password.
+
+- Feedback through alerts
 
 - Click Register to create a new account.
 
