@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+}
+
+.authentication-card {
+    background: rgb(34, 39, 54);
+    color: white;
+    border-radius: 1.1rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    padding: 30px 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.authentication-card h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.auth-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.auth-toggle button {
+    width: 48%;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background: #4a90e2;
+    color: white;
+    transition: all 0.3s;
+}
+
+.auth-toggle button:hover {
+    background: #357ab7;
+}
+
+.auth-toggle button.active {
+    background: white;
+    color: #222736;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.4rem;
+    background: #2a2f40;
+    color: #eee;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+#input-submit {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.4rem;
+    background: #4a90e2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 0.5rem;
+}
+
+#input-submit:hover {
+    background: #357ab7;
+}
