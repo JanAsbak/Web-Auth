@@ -39,6 +39,7 @@ CREATE TABLE users (
 ```
 4. **Start the server**
 ```bash
+cd server/src
 node server.js
 ```
 - The server will run on http://localhost:3000.
